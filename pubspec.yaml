@@ -1,0 +1,148 @@
+name: boilerplate
+description: BKAV Camera.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+120
+
+environment:
+  sdk: ">=2.8.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_cupertino_localizations:
+#  firebase_messaging:
+  flutter_local_notifications:
+  workmanager:
+  get_mac:
+  webview_flutter:
+  flutter_secure_storage:
+  cupertino_icons:
+  shared_preferences:
+  flash:
+  mobx:
+  flutter_mobx:
+  provider:
+  validators:
+  dio:
+  flushbar:
+  inject:
+    git:
+      url: https://github.com/google/inject.dart.git
+      path: package/inject
+      ref: 7c3cbf6
+  sembast:
+  xxtea:
+  path_provider: ^2.0.9
+  flutter_spinkit: ^5.1.0
+  modal_bottom_sheet:
+  permission_handler:
+  flutter_datetime_picker:
+    git:
+      url: https://github.com/Realank/flutter_datetime_picker.git
+      ref: master
+  intl:
+  typed_data:
+  smart_select:
+  flutter_widgets:
+  flutter_overlay_loader:
+#  save_in_gallery: ^1.7.1
+#  save_in_gallery:
+#    git: https://github.com/quanghd96/save_in_gallery.git
+  toast:
+  photo_gallery:
+    git: https://github.com/quanghd96/photo_gallery.git
+  share:
+  photo_manager:
+  cached_network_image:
+  # fix version local auth for Android SDK 29
+  local_auth:
+  indexed_list_view:
+  flutter_xlider:
+  flutter_vlc_player:
+    path: plugins/flutter_vlc_player/flutter_vlc_player
+
+  pull_to_refresh:
+  photo_view:
+    path: plugins/photo_view
+
+  table_calendar:
+  syncfusion_flutter_datepicker:
+  scroll_snap_list:
+  flutter_treeview:
+  flutter_simple_treeview:
+  tree_view:
+  hexcolor: ^2.0.6
+  video_player:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  chewie:
+  json_serializable:
+  build_runner:
+  inject_generator:
+    git:
+      url: https://github.com/google/inject.dart.git
+      path: package/inject_generator
+      ref: 7c3cbf6
+  # flutter packages pub run flutter_launcher_icons:main
+  flutter_launcher_icons:
+  mobx_codegen:
+  build_resolvers:
+
+flutter_icons:
+  image_path: "assets/icons/ic_launcher.png"
+  android: true
+  ios: true
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/khoilua.png
+    - assets/images/nhandien.png
+    - assets/images/xamnhap.png
+    - assets/icons/
+    - assets/lang/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: ProductSans
+      fonts:
+        - asset: assets/fonts/GoogleSans-Regular.ttf
+        - asset: assets/fonts/GoogleSans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/GoogleSans-Bold.ttf
+          weight: 700
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "740004142039",
+    "project_id": "bakvcms",
+    "storage_bucket": "bakvcms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740004142039:android:e04c613ddeb6f3f7088992",
+        "android_client_info": {
+          "package_name": "com.bkav.cmsm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740004142039-j878nk20idqbt7d7iqc954pgcpvfuhr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhZrkX2_ldZaleOQLOilbLaZ3w8s1OuQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740004142039-j878nk20idqbt7d7iqc954pgcpvfuhr9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "740004142039-6718kg9q7t8egbqcho18dlteu21isbjh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bkav.cmsm"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
